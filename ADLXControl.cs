@@ -50,7 +50,8 @@ namespace FanControl.ADLX
             var roundedVal = (int)Math.Round(val);
 
             if (roundedVal == 0)
-                SetZeroRPM(true);
+//                SetZeroRPM(true);
+                SetZeroRPM(false);
             else
                 SetZeroRPM(false);
 
